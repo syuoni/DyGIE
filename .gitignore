@@ -1,0 +1,10 @@
+# Data
+/data/
+/preprocessing/common/*.zip
+/preprocessing/*/corpus/
+/preprocessing/*/english/
+/preprocessing/*/English/
+/preprocessing/*/fixed/
+/preprocessing/*/result/
+/preprocessing/*/text/
+/preprocessing/*/log
