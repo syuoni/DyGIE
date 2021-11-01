@@ -154,7 +154,7 @@ for i in range(5):
         entity_dir, rel_dir = parseAce(annfn, entity_set, rel_set)
         parses, token_dict_offset1, token_dict_offset2 = parseStanford(stanfordfn)
         nercount, relcount, sentcount = Ace2json(entity_dir, rel_dir, token_dict_offset1, token_dict_offset2, txtfn, docs, nercount, relcount, sentcount)
-    outfn = '../../data/ace04/json/train/'+str(i) + '.json'
+    outfn = '../../data/ace04/json/test/'+str(i) + '.json'
     WriteDocs(docs, outfn)
 
 for i in range(5):
